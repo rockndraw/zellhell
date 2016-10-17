@@ -4,6 +4,16 @@
     color:#fff;
 }
 
+.finalcountdown--card {
+    position: static;
+}
+
+.finalcountdown--card h2 {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
 #Debug {
     position: fixed;
     bottom: 5px;

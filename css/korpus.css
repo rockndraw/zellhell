@@ -720,14 +720,77 @@ svg .plan--red:hover{
   padding-top: 10px;
 }
 
+.params-table {
+  position: absolute;
+  left: 23%;
+  top: 10%;
+  width: 57%;
+}
+
+.params-table thead tr td{
+  text-transform: uppercase;
+  color: #fff;
+  vertical-align: bottom;
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.params-table tbody tr td{
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+}
+
+.params-table tbody tr:nth-child(odd) {
+  background: rgba(246, 81, 64,.5);
+}
+
+.params-table tbody tr:hover {
+  background: rgba(243, 224, 76,.8);
+}
+
 .flat-card {
   color: #fff;
-  font-size: 28px;
+  font-size: 24px;
   text-transform: uppercase;
   position: absolute;
-  top: 25%;
+  top: 13%;
   left: 53%;
 }
+.flat-card--auc{
+  top: 40%;
+  left: 53%;
+  background: rgba(120,183,11,0.3);
+  padding: 10px;
+}
+
 .flat-card__item {
-  padding: 10px 0;
+  padding: 5px 0;
+}
+.flat-card__item--auction {
+  font-size: 18px;
+  padding-top: 25px;
+}
+
+.flat-card__item--auction__price {
+  display: block;
+  font-size: 40px;
+  color: rgba(120,183,11,1);
+  text-align: center;
+  margin-top: 15px;
+}
+
+.buy-button {
+  text-decoration: none;
+  padding: 5px 10px;
+  background:#F65140;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+  display: block;
+  text-align: center;
 }

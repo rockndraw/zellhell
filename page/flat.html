@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/korpus.css">
+    <link rel="stylesheet" href="../css/countdown.css">
 
 </head>
 <body class="hundreedpercent">
@@ -57,7 +58,42 @@
             <div class="flat-card__item">
               Стоимость: 3400000 ₽
             </div>
+            <a class="buy-button" href="">Купить квартиру</a>
           </div>
+          <div id="flat-card-auc" class="flat-card flat-card--auc">
+          <div class="flat-card__item flat-card__item--auction">
+            Текущая аукционная стоимость: <span class="flat-card__item--auction__price">2200000 ₽</span>
+          </div>
+          <div class="finalcountdown finalcountdown--card">
+                  <h2>До конца аукциона:</h2>
+                  <div class="countdown">
+                      <div data-time="1368630000" class="timerBrand clearfix">
+                          <div class="clock days first">
+                              <div class="digit_1"><div>0</div></div>
+                              <div class="digit_2"><div>0</div></div>
+                              <div class="label">Дней</div>
+                          </div>
+                          <div class="clock hours">
+                              <div class="digit_1"><div>0</div></div>
+                              <div class="digit_2"><div>0</div></div>
+                              <div class="label">Часов</div>
+                          </div>
+                          <div class="clock minutes">
+                              <div class="digit_1"><div>0</div></div>
+                              <div class="digit_2"><div>0</div></div>
+                              <div class="label">минут</div>
+                          </div>
+                          <div class="clock seconds">
+                              <div class="digit_1"><div>0</div></div>
+                              <div class="digit_2"><div>0</div></div>
+                              <div class="label">секунд</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div id="Debug"></div>
+              </div>
+            </div>
+
         </div>
         <div class="flat-plan flat-plan--plan3-101-l">
 
@@ -78,7 +114,8 @@
     </footer>
 
     <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../js/countdown.js"></script>
     <script>
 
         $(document).ready(function(){
