@@ -13,7 +13,7 @@
   left: 35%;
 }
 
-.choose-flat{
+.choose-flat, .params{
     background: url(../img/params.jpg);
 }
 
